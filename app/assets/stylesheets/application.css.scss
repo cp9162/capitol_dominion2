@@ -14,3 +14,17 @@
  */
 @import "bootstrap-sprockets";
 @import "bootstrap";
+
+body {
+	margin-top: 3.6em;
+}
+.hm-bg {
+	background: url(http://www.freeimages.com/pic/l/v/va/vartian/1437636_74535967.jpg);
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-position: center;
+	display: block;
+	position: fixed;
+	height: 100%;
+	width: 100%;
+}
