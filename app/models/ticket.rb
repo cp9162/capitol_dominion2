@@ -3,5 +3,5 @@ class Ticket < ActiveRecord::Base
 
 	validates :title, presence: true
 	validates :description, presence: true
-	validates :img_url, allow_blank: true
+	validates :img_url, length: { is: 300 }, allow_blank: true
 end

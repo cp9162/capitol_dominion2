@@ -1,5 +1,6 @@
 class TicketsController < ApplicationController
   before_action :set_ticket, only: [:show, :edit, :update, :destroy]
+   respond_to :html, :xml, :json
 
   def index
     @tickets = Ticket.all
