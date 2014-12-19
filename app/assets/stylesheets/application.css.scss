@@ -17,6 +17,8 @@
 
 body {
 	margin-top: 3.6em;
+	margin:50px 0px; padding:0px;
+	text-align:center;
 }
 .hm-bg {
 	background: url(http://www.freeimages.com/pic/l/v/va/vartian/1437636_74535967.jpg);
@@ -27,4 +29,44 @@ body {
 	position: fixed;
 	height: 100%;
 	width: 100%;
+}
+
+.hm-title {
+	font-size: 2em;
+	color: #333;
+}
+
+.hm-desc {
+	font-size: 1em;
+	color: #333;
+	font-size: 1.5em;
+}
+
+.hm-center {
+	width:800px;
+	height: 500px;
+	margin:0px auto;
+	margin-top: 4em;
+	text-align:left;
+	padding:15px;
+	border:1px solid #333;
+	background-color:#fff;
+	opacity: .8
+}
+
+.devise-center {
+	width:300px;
+	margin:0px auto;
+	margin-top: 4em;
+	text-align:left;
+	padding:15px;
+	border:1px solid #333;
+	background-color:#fff;
+}
+
+.hm-button {
+	background-color: purple;
+	color: white;
+	font-size: 2em;
+	border-radius: 25px;
 }
